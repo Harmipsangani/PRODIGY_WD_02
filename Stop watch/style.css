@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #eee;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  #start {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  #start:hover{
+    background-color: #03dd35;
+  }
+  
+  #stop {
+    background-color:#d31326; /* Red */
+    color: white;
+  }
+  #stop:hover{
+    background-color: #ff0000;
+  }
+  
+  #reset {
+    background-color:  #0c46e2; /* Yellow */
+    color: white;
+  }
+  #reset:hover{
+    background-color:#1251ff;
+  }
+
+  #lapBtn {
+    background-color:  rgb(140, 15, 189); /* Blue */
+    color: white;
+  }
+  #lapBtn:hover{
+    background-color:  rgb(184, 22, 249);
+  }
+  
+  #laps {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  #lapsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    .display {
+      font-size: 2.5em;
+    }
+  
+    .buttons {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    button {
+      margin: 5px;
+    }
+  }
+  
